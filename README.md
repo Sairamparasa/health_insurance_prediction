@@ -59,16 +59,25 @@ Interactive Streamlit web app (`app.py`) features:
 ## 📁 Project Structure
 
 ```
-├── app.py                          # Streamlit web application
-├── eda.ipynb                       # Data analysis & model training
-├── insurance.csv                   # Dataset
-├── best_model.pkl                  # Trained ML model
-├── scaler.pkl                      # Feature scaler
-├── label_encoder_gender.pkl        # Gender encoder
-├── label_encoder_diabetic.pkl      # Diabetic status encoder
-├── label_encoder_smoker.pkl        # Smoker status encoder
-├── requirements.txt                # Python dependencies
-└── README.md                       # Project documentation
+health-insurance-prediction/
+├── 📁 data/
+│   └── insurance.csv                    # Dataset
+├── 📁 models/
+│   ├── best_model.pkl                   # Trained ML model
+│   ├── scaler.pkl                       # Feature scaler
+│   ├── label_encoder_diabetic.pkl       # Diabetic status encoder
+│   ├── label_encoder_gender.pkl         # Gender encoder
+│   └── label_encoder_smoker.pkl         # Smoker status encoder
+├── 📁 notebooks/
+│   └── eda.ipynb                        # Data analysis & model training
+├── 📁 src/
+│   └── app.py                           # Streamlit web application
+├── 📁 tests/                            # Test files (empty)
+├── 📁 docs/                             # Documentation (empty)
+├── .gitignore                           # Git ignore rules
+├── README.md                            # Project documentation
+├── requirements.txt                     # Python dependencies
+└── GIT_SETUP.md                         # Git setup guide
 ```
 
 ## 🛠️ Installation & Setup
@@ -110,7 +119,7 @@ pip install -r requirements.txt
 
 ### Running the Web Application:
 ```bash
-streamlit run app.py
+streamlit run src/app.py
 ```
 
 The app will open in your browser at `http://localhost:8501`
