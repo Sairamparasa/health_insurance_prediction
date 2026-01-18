@@ -22,11 +22,3 @@ ipykernel>=6.0.0
 
 # Additional utilities
 scipy>=1.7.0
-
-# Development Dependencies (optional)
-# Uncomment for development environment
-# pytest>=6.0
-# pytest-cov>=2.0
-# black>=21.0
-# flake8>=3.8
-# mypy>=0.800

@@ -59,34 +59,16 @@ Interactive Streamlit web app (`app.py`) features:
 ## 📁 Project Structure
 
 ```
-health-insurance-prediction/
-├── 📁 data/
-│   └── insurance.csv                    # Dataset (1,340 records)
-├── 📁 models/
-│   ├── best_model.pkl                   # Trained ML model
-│   ├── scaler.pkl                       # Feature scaler
-│   ├── label_encoder_diabetic.pkl       # Diabetic status encoder
-│   ├── label_encoder_gender.pkl         # Gender encoder
-│   └── label_encoder_smoker.pkl         # Smoker status encoder
-├── 📁 notebooks/
-│   └── eda.ipynb                        # Data analysis & model training
-├── 📁 src/
-│   ├── __init__.py                      # Package initialization
-│   ├── app.py                           # Main Streamlit application
-│   ├── model_utils.py                   # Model loading utilities
-│   └── data_preprocessing.py            # Data validation & processing
-├── 📁 tests/
-│   ├── __init__.py                      # Test package initialization
-│   ├── test_app.py                      # Application tests
-│   └── test_model.py                    # Model utility tests
-├── 📁 docs/
-│   └── api_documentation.md             # Detailed API documentation
-├── .gitignore                           # Git ignore rules
-├── README.md                            # Project documentation
-├── requirements.txt                     # Python dependencies
-├── setup.py                             # Package setup configuration
-├── Dockerfile                           # Docker containerization
-└── GIT_SETUP.md                         # Git setup instructions
+├── app.py                          # Streamlit web application
+├── eda.ipynb                       # Data analysis & model training
+├── insurance.csv                   # Dataset
+├── best_model.pkl                  # Trained ML model
+├── scaler.pkl                      # Feature scaler
+├── label_encoder_gender.pkl        # Gender encoder
+├── label_encoder_diabetic.pkl      # Diabetic status encoder
+├── label_encoder_smoker.pkl        # Smoker status encoder
+├── requirements.txt                # Python dependencies
+└── README.md                       # Project documentation
 ```
 
 ## 🛠️ Installation & Setup
@@ -128,28 +110,10 @@ pip install -r requirements.txt
 
 ### Running the Web Application:
 ```bash
-streamlit run src/app.py
+streamlit run app.py
 ```
 
 The app will open in your browser at `http://localhost:8501`
-
-### Running with Docker:
-```bash
-# Build the Docker image
-docker build -t insurance-prediction .
-
-# Run the container
-docker run -p 8501:8501 insurance-prediction
-```
-
-### Running Tests:
-```bash
-# Run all tests
-python -m pytest tests/
-
-# Run with coverage
-python -m pytest tests/ --cov=src
-```
 
 ### Using the Prediction Interface:
 1. Enter your personal information (age, gender, children)
@@ -158,7 +122,7 @@ python -m pytest tests/ --cov=src
 4. View your estimated insurance claim amount
 
 ### Exploring the Analysis:
-Open `notebooks/eda.ipynb` in Jupyter Notebook to see:
+Open `eda.ipynb` in Jupyter Notebook to see:
 - Data exploration and visualization
 - Feature engineering process
 - Model training and evaluation

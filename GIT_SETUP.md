@@ -9,31 +9,15 @@ git add .
 
 ### 2. Commit your changes:
 ```bash
-git commit -m "Initial commit: Professional Health Insurance Prediction Project
+git commit -m "Initial commit: Health Insurance Prediction Project
 
-✨ Features:
-- Modular Streamlit web application with enhanced UI
-- Comprehensive data validation and preprocessing
-- Professional project structure with organized modules
-- Complete test suite with unit tests
-- Docker containerization support
-- Detailed documentation and API reference
-
-📁 Structure:
-- /data: Dataset storage
-- /models: Trained ML models and preprocessors  
-- /notebooks: Jupyter analysis notebooks
-- /src: Source code with utilities and main app
-- /tests: Unit tests for all components
-- /docs: Comprehensive documentation
-
-🛠️ Technical:
-- Enhanced error handling and input validation
-- Cached model loading for better performance
-- Professional UI with icons and better layout
-- Modular code architecture for maintainability
-- Docker deployment ready
-- Package setup for distribution"
+- Added Streamlit web application (app.py)
+- Added comprehensive EDA notebook (eda.ipynb)
+- Added trained ML models and preprocessors (.pkl files)
+- Added insurance dataset (insurance.csv)
+- Added detailed README with project documentation
+- Added requirements.txt with all dependencies
+- Updated .gitignore for Python ML projects"
 ```
 
 ### 3. Push to remote repository:
@@ -90,31 +74,16 @@ git push origin main
 
 ```
 health-insurance-prediction/
-├── 📁 data/
-│   └── insurance.csv                    # Dataset
-├── 📁 models/
-│   ├── best_model.pkl                   # Trained ML model
-│   ├── scaler.pkl                       # Feature scaler
-│   └── label_encoder_*.pkl              # Categorical encoders
-├── 📁 notebooks/
-│   └── eda.ipynb                        # Data analysis notebook
-├── 📁 src/
-│   ├── __init__.py                      # Package initialization
-│   ├── app.py                           # Streamlit web app
-│   ├── model_utils.py                   # Model utilities
-│   └── data_preprocessing.py            # Data processing
-├── 📁 tests/
-│   ├── __init__.py                      # Test package
-│   ├── test_app.py                      # App tests
-│   └── test_model.py                    # Model tests
-├── 📁 docs/
-│   └── api_documentation.md             # API documentation
-├── .gitignore                           # Git ignore rules
-├── README.md                            # Project documentation
-├── requirements.txt                     # Dependencies
-├── setup.py                             # Package setup
-├── Dockerfile                           # Docker configuration
-└── GIT_SETUP.md                         # This setup guide
+├── .gitignore                      # Git ignore rules
+├── README.md                       # Project documentation
+├── requirements.txt                # Python dependencies
+├── app.py                          # Streamlit web app
+├── eda.ipynb                       # Data analysis notebook
+├── insurance.csv                   # Dataset
+├── best_model.pkl                  # Trained ML model
+├── scaler.pkl                      # Feature scaler
+├── label_encoder_*.pkl             # Categorical encoders
+└── GIT_SETUP.md                    # This setup guide
 ```
 
 Delete this file after setup if desired:
