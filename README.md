@@ -21,7 +21,7 @@ The project uses an insurance dataset (`insurance.csv`) containing **1,340 recor
 - **Region**: Geographic region (southeast, northwest, southwest, northeast)
 
 ### Target Variable:
-- **Claim**: Insurance payment amount ($1,121 - $63,770)
+- **Claim**: Insurance payment amount  ($1,121 - $63,770)
 
 ## 🤖 Machine Learning Models
 
