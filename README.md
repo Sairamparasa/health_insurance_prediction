@@ -6,7 +6,7 @@ A machine learning project that predicts health insurance claim amounts based on
 
 This project analyzes health insurance data to build predictive models that estimate insurance claim amounts. The system uses various personal and health metrics to provide accurate predictions through an interactive web application.
 
-## 📊 Dataset
+## 📊  Dataset
 
 The project uses an insurance dataset (`insurance.csv`) containing **1,340 records** with the following features:
 
