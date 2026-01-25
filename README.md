@@ -8,7 +8,7 @@ This project analyzes health insurance data to build predictive models that esti
 
 ## 📊  Dataset
 
-The project uses an insurance dataset (`insurance.csv`) containing **1,340 records** with the following features:
+The project uses an insurance dataset (`insurance.csv`) containing **1,340 records** with the following features:   
 
 ### Input Features:
 - **Age**: Person's age (18-60 years)
