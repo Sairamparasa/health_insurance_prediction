@@ -1,4 +1,4 @@
-Id,age,gender,bmi,bloodpressure,diabetic,children,smoker,region,claim
+Id,age,gender,bmi,bloodpressure,diabetic,children,smoker,region,claim 
 1,39.0,male,23.2,91,Yes,0,No,southeast,1121.87
 2,24.0,male,30.1,87,No,0,No,southeast,1131.51
 3,,male,33.3,82,Yes,0,No,southeast,1135.94
