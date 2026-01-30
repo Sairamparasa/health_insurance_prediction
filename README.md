@@ -27,7 +27,7 @@ The project uses an insurance dataset (`insurance.csv`) containing **1,340 recor
 
 The project implements and compares multiple regression algorithms:
 
-1. **Linear Regression** - Baseline model
+1. **Linear Regression** - Baseline model   
 2. **Polynomial Regression** - Non-linear relationships(degrees 2-3)
 3. **Random Forest Regressor** - Ensemble method with hyperparameter tuning
 4. **Support Vector Regression (SVR)** - Kernel-based approach
